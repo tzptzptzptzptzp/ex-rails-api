@@ -1,24 +1,41 @@
-# README
+## 紹介
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+こちらは Ruby on Rails を使用した API です。  
+リクエストメソッドに応じて CRUD の処理に対応しています。
 
-Things you may want to cover:
+## 使用技術
 
-* Ruby version
+- [Ruby](https://www.ruby-lang.org/ja/)
+- [Rails](https://rubyonrails.org/)
+- [SQLite](https://www.sqlite.org/index.html)
 
-* System dependencies
+## 開発手順
 
-* Configuration
+Rails コマンドを使用しています
 
-* Database creation
+```bash
+rails
+rails server // APIサーバー起動
+```
 
-* Database initialization
+---
 
-* How to run the test suite
+## Introduction
 
-* Services (job queues, cache servers, search engines, etc.)
+This is an API developed using Ruby on Rails.  
+It responds to CRUD operations based on the request method.
 
-* Deployment instructions
+## Technologies Used
 
-* ...
+- [Ruby](https://www.ruby-lang.org/ja/)
+- [Rails](https://rubyonrails.org/)
+- [SQLite](https://www.sqlite.org/index.html)
+
+## Development Procedure
+
+We use Rails commands:
+
+```bash
+rails
+rails server // Launching the API server
+```
